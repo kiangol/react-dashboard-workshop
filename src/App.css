@@ -37,15 +37,15 @@ body {
 }
 
 .widget:nth-child(3n+1) {
-  background: #81c6ff;
+  background: #1b2b38;
 }
 
 .widget:nth-child(3n+2) {
-  background: #c0e8ff;
+  background: #253036;
 }
 
 .widget:nth-child(3n+3) {
-  background: #CBBBE2;
+  background: #473d55;
 }
 
 .widget ul {
@@ -71,7 +71,7 @@ body {
 }
 
 .tabs button.activeTab {
-  background: #CBBBE2;
+  background: #cacaca;
 }
 
 .subjectStatus {

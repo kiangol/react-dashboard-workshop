@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Lectures from './Components/Lectures';
+import Widget from './Components/Widget'
 import Assignments from './Components/Assignments';
+import YesNo from './Components/YesNo'
 
 const App = () => {
   return (
@@ -11,7 +13,8 @@ const App = () => {
       </h1>
       <div className="dashboardRow">
         <Lectures />
-        {/* <Assignments /> */}
+        <Assignments />
+        <YesNo />
       </div>
     </div>
   );

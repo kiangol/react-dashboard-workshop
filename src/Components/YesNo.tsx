@@ -3,17 +3,21 @@ import Widget from './Widget';
 
 const YesNo = () => {
   const [input, setInput] = React.useState('');
-  const [question, setQuestion] = React.useState('');
+  const [question, setQuestion] = React.useState('live laugh love');
   const [imageUrl, setImageUrl] = React.useState();
 
   const updateInput = (evt: any) => {
     // Oppgave 6.2: Oppdater input staten med det som
     // blir skrevet inn i input feltet.
+    setInput(evt.target.value);
   }
 
   const fetchImage = () => {
     // Oppgave 6.3: Fetch data fra APIet
     // https://yesno.wtf/api og oppdater imageUrl-staten.
+    fetch('https://yesno.wtf/api')
+      .then(response => response.json())
+      .then(json => setImageUrl(json.image), json => setQuestion(json.answer));
   }
 
   const askQuestion = (evt: any) => {
@@ -21,11 +25,14 @@ const YesNo = () => {
 
     // Oppgave 6.3: Kall på fetchImage-metoden for å hente data
     // og oppdater question- og input-staten.
+    setQuestion(input);
+    setInput('');
   }
 
   React.useEffect(() => {
     // Oppgave 7.1: Fetch data etter første render.
-  }, []);
+    fetchImage();
+  }, [question]);
 
   return (
     <Widget title={question}>

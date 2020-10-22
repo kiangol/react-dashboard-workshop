@@ -59,7 +59,7 @@ Prøv å send med en `title`-prop til `Widget`, å se hva som skjer.
 https://reactjs.org/docs/components-and-props.html#composing-components
 
 ### 3.3
-Etterhvert kan man ha veldig mange props som sendes inn til et komponent. Et triks for å gjøre koden mer lesbar er å dekonstruere props. Les hvordan her [unpacking fields from objects passed as function parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Unpacking_fields_from_objects_passed_as_function_parameter) og prøv å dekonstruer propsene til `Widget`.
+Etterhvert kan man ha veldig mange props som sendes inn til et komponent. Et triks for å gjøre koden mer lesbar er å dekonstruere props. Les hvordan her [unpacking fields from objects passed as function parameter](https://develope  r.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Unpacking_fields_from_objects_passed_as_function_parameter) og prøv å dekonstruer propsene til `Widget`.
 
 ## Oppgave 4: Intro til TypeScript
 Enn så lenger har vi jobbet med jsx. Nå skal vi prøve å gjøre om til å bruke typescript. [Denne linken kan være nyttig underveis, og introduserer noen vanlige typer](https://www.typescriptlang.org/docs/handbook/basic-types.html)
