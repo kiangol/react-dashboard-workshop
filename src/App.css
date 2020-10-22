@@ -37,11 +37,11 @@ body {
 }
 
 .widget:nth-child(3n+1) {
-  background: #F8DFF2;
+  background: #81c6ff;
 }
 
 .widget:nth-child(3n+2) {
-  background: #EEE3FF;
+  background: #c0e8ff;
 }
 
 .widget:nth-child(3n+3) {
