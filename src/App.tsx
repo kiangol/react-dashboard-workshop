@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Lectures from './Components/Lectures';
-import Widget from './Components/Widget'
+// import Widget from './Components/Widget'
 import Assignments from './Components/Assignments';
 import YesNo from './Components/YesNo'
 
