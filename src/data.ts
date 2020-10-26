@@ -37,5 +37,19 @@ export const subjects: Subject[] = [
         approved: false,
       },
     ]
+  },
+  {
+    name: 'Fritid',
+    mandatoryApprovals: 2,
+    assignments: [
+      {
+        name: 'Trene',
+        approved: true,
+      },
+      {
+        name: 'Johnny Depp land',
+        approved: false,
+      },
+    ]
   }
 ];
